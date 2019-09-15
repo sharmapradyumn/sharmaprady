@@ -1,0 +1,581 @@
+            body {
+                
+                margin: 0;
+                padding: 0;   
+            }
+
+            body, h1, h2, h3, h4, h5, h6{
+                font-family: 'Maven Pro', sans-serif;
+
+            }
+
+            .navbar{
+                background-color: #4a4c53;
+            }
+
+            #pic{
+
+                border-radius: 50%;
+                margin-top:0px;
+                max-width: 3rem;
+                max-height: 3rem;
+                border: 0.2rem solid #919294;
+            }
+
+            .navbar ul{
+                display: block;
+                padding-left: 0%;
+                padding-top: 5px;
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+             /*ABOUT SECTION*/
+
+            #about{
+               
+                background-color: white;
+                padding-top: 40px;
+
+            }
+
+            #about .display-2{
+                font-weight: 600;
+                font-size: 60px;
+            }
+
+            #about h6{
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            #about .text-muted{
+                font-weight: 400;
+                font-size: 16px;
+            }
+
+            .social-icons{
+                padding-top: 10px;
+            }
+
+            .social-icons a{
+                display: inline-block;
+                height: 3.0rem;
+                width: 3.0rem;
+                background-color: #495057;
+                color: #fff !important;
+                border-radius: 100%;
+                text-align: center;
+                font-size: 1.5rem;
+                line-height: 2.9rem;
+                margin-right: 1rem;
+            }
+
+            .social-icons a:hover{
+                background-color: #002080 !important;
+                box-shadow:2px 1px 15px black;
+            }
+
+            /*EXPERIENCE SECTION*/
+            #experience{
+                background-color: white;
+                
+
+            }
+
+            #experience .display-2{
+                font-weight: 600;
+                font-size: 50px;
+            }
+
+            #experience h4{
+                font-weight: 700;
+                font-size: 22px;
+            }
+
+            #experience h5{
+                font-size: 18px;
+            }
+
+            #experience p{
+                font-size: 16px;
+            }
+
+            #experience .year{
+                margin-top: 0px;
+            }
+
+            
+
+            /*EDUCATION SECTION*/
+            #education{
+                background-color: white;
+                
+
+            }
+
+            #education .display-2{
+                font-weight: 600;
+                font-size: 50px;
+            }
+
+            #education h4{
+                font-weight: 700;
+                font-size: 22px;
+            }
+
+            #education h5{
+                font-size: 18px;
+            }
+
+            #education p{
+                font-size: 16px;
+            }
+
+            #education .year{
+                margin-top: 0px;
+            }
+
+            
+            /*SKILLS SECTION*/
+            #skills{
+                background-color: white;
+                
+               
+            }
+
+            #skills .display-2{
+                font-weight: 600;
+                font-size: 50px;
+            }
+
+            #skills h4{
+                font-weight: 700;
+                font-size: 20px;
+            }
+
+            .skill-icons li{
+                font-size: 20px;
+                letter-spacing: 5px;
+                list-style-type: circle;
+            }
+
+            .skill-icons li:hover{
+                color: #002080 !important;   
+                cursor: pointer;
+            }
+
+
+            #skills .workflow ul li{
+                font-size: 18px;
+                list-style-type: circle;
+            }
+
+            /*certifications SECTION*/
+            #certifications{
+                background-color: white;
+                
+               
+            }
+
+            #certifications .display-2{
+                font-weight: 600;
+                font-size: 42px;
+            }
+
+            #certifications p{
+                font-size: 16px;
+                font-weight: 500; 
+                padding-left: 16px;
+            }
+                
+            /*Projects section*/
+            #projects{
+                background-color: white;
+               
+               
+            }
+
+            #projects .display-2{
+                font-weight: 600;
+                font-size: 42px;
+            }
+
+            #projects h5{
+                text-align: center;
+            }
+
+            .img-ad{
+                text-align: center;
+            }
+                
+            #img-sz{
+                    width: 300px;
+                    height: auto;
+                    border-radius: 10px; 
+            }
+                
+                #img-sz:hover{
+                    cursor: pointer;
+                    box-shadow: 2px 1px 15px black;
+                }
+
+            /*AWARDS SECTION*/
+            #awards{
+                background-color: white;
+                padding-top: 80px;
+                padding-bottom: 150px;
+               
+               
+            }
+
+            #awards .display-2{
+                font-weight: 600;
+                font-size: 50px;
+            }
+
+            #awards p{
+                padding-left: 15px;
+            }
+
+            #awards .awards-txt{
+                font-size: 16px;
+                font-weight: 600; 
+            }
+
+            #awards .award-ico{
+                color: #e9c80d;
+                font-size: 30px !important;
+            }
+                
+               
+        
+        
+
+/*FOOOOTER SECTION*/
+.footer{
+           margin-bottom: 10px!important;
+           font-size: 12px !important; 
+       }
+
+
+.footer .company{
+    color: darkorange;
+}
+
+@media (min-width:768px) and (max-width:991px){
+     #experience .year{
+                margin-top: -32px;
+            }
+}
+
+
+
+            @media (min-width: 992px) {
+                body {
+                  padding-top: 0;
+                  padding-left: 17rem;
+                }
+              }
+
+              body, h1, h2, h3, h4, h5, h6{
+                font-family: 'Maven Pro', sans-serif;
+
+            }
+
+
+            @media (min-width:992px){
+
+            
+            
+            .navbar{
+                text-align: center;
+                position: fixed;
+                top: 0;
+                left: 0;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient:vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                width: 17rem;
+                height: 100vh;
+                background-color: #002080;
+            }
+
+            .navbar .navbar-brand {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                margin: auto auto 0;
+                padding: 0.5rem;
+              }
+
+            .navbar ul{
+                display: block;
+                padding-left: 0%;
+                padding-top: 70px;
+                margin-top: -100px; 
+                font-size: 20px;
+            }
+
+            .navbar ul li a{
+                display: flex;
+                justify-content: center;
+            }
+            
+            
+            
+            .content {
+                padding-top: 300px;
+                height: 2000px;
+                background-color: white;
+                text-align: center;
+               
+            }
+            #pic{
+
+                border-radius: 50%;
+                /* I have made some changes here */
+                margin-top:50px;
+                max-width: 10rem;
+                max-height: 10rem;
+                border: 0.5rem solid #002db3;
+            }
+
+            /*ABOUT SECTION*/
+
+            #about{
+                height: 100vh;
+                background-color: white;
+                /* I have made some changes over here */
+                padding-top: 70px;
+
+            }
+
+            #about .display-2{
+                font-weight: 600;
+                font-size: 65px;
+            }
+
+            #about h6{
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            #about .text-muted{
+                font-weight: 400;
+                font-size: 18px;
+            }
+
+            .social-icons{
+                padding-top: 50px;
+            }
+
+            .social-icons a{
+                display: inline-block;
+                height: 3.8rem;
+                width: 3.8rem;
+                background-color: #495057;
+                color: #fff !important;
+                border-radius: 100%;
+                text-align: center;
+                font-size: 1.8rem;
+                line-height: 3.8rem;
+                margin-right: 1rem;
+            }
+
+            .social-icons a:hover{
+                background-color: #002080 !important;
+                box-shadow:2px 1px 15px black;
+            }
+
+            /*EXPERIENCE SECTION*/
+            #experience{
+                background-color: white;
+                padding-top: 100px;
+                
+
+            }
+
+            #experience .display-2{
+                font-weight: 600;
+                font-size: 65px;
+            }
+
+            #experience h4{
+                font-weight: 700;
+                font-size: 30px;
+            }
+
+            #experience h5{
+                font-size: 22px;
+            }
+
+            #experience p{
+                font-size: 18px;
+            }
+
+            #experience .year{
+                margin-top: -40px;
+            }
+
+            
+
+            /*EDUCATION SECTION*/
+            #education{
+                background-color: white;
+                padding-top: 200px;
+                padding-bottom: 200px;
+
+            }
+
+            #education .display-2{
+                font-weight: 600;
+                font-size: 65px;
+            }
+
+            #education h4{
+                font-weight: 700;
+                font-size: 30px;
+            }
+
+            #education h5{
+                font-size: 22px;
+            }
+
+            #education p{
+                font-size: 18px;
+            }
+
+            #education .year{
+                margin-top: -40px;
+            }
+
+            
+
+            /*SKILLS SECTION*/
+            #skills{
+                background-color: white;
+                padding-top: 100px;
+                padding-bottom: 100px;
+               
+            }
+
+            #skills .display-2{
+                font-weight: 600;
+                font-size: 65px;
+            }
+
+            #skills h4{
+                font-weight: 700;
+                font-size: 30px;
+            }
+
+            .skill-icons li{
+                font-size: 20px;
+                letter-spacing: 5px;
+                list-style-type: circle;
+            }
+
+            .skill-icons li:hover{
+                color: #002080 !important;   
+                cursor: pointer;
+            }
+
+
+            #skills .workflow ul li{
+                font-size: 18px;
+                list-style-type: circle;
+            }
+
+
+            /*certifications SECTION*/
+            #certifications{
+                background-color: white;
+                padding-top: 200px;
+                padding-bottom: 200px;
+               
+            }
+
+            #certifications .display-2{
+                font-weight: 600;
+                font-size: 65px;
+            }
+
+            #certifications p{
+                font-size: 22px;
+                font-weight: 500; 
+                padding-left: 30px;
+            }
+                
+            /*Projects section*/
+            #projects{
+                background-color: white;
+                padding-top: 50px;
+                padding-bottom: 50px;
+               
+            }
+
+            #projects .display-2{
+                font-weight: 600;
+                font-size: 65px;
+            }
+                
+            #img-sz{
+                    width: 300px;
+                    height: auto;
+                    border-radius: 10px; 
+            }
+                
+                #img-sz:hover{
+                    cursor: pointer;
+                    box-shadow: 2px 1px 15px black;
+                }
+
+            /*AWARDS SECTION*/
+            #awards{
+                background-color: white;
+                padding-top: 250px;
+                padding-bottom: 250px;
+                
+               
+            }
+
+            #awards .display-2{
+                font-weight: 600;
+                font-size: 65px;
+            }
+
+            #awards p{
+                padding-left: 15px;
+            }
+
+            #awards .awards-txt{
+                font-size: 30px;
+                font-weight: 600; 
+            }
+
+            #awards .award-ico{
+                color: #e9c80d;
+                font-size: 40px !important;
+            }
+                
+               
+        
+        
+
+/*FOOOOTER SECTION*/
+.footer{
+           margin-bottom: 20px;
+           font-size: 16px!important; 
+       }
+
+
+.footer .company{
+    color: darkorange;
+}
+            
+}
