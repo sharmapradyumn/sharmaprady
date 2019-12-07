@@ -72,8 +72,8 @@
             }
 
             .social-icons a:hover{
-                background-color: #002080 !important;
-                box-shadow:2px 1px 15px black;
+                background-color: #80003c !important;
+                box-shadow:2px 1px 15px rgb(0, 0, 0);
             }
 
             /*EXPERIENCE SECTION*/
@@ -302,7 +302,7 @@
                 flex-direction: column;
                 width: 17rem;
                 height: 100vh;
-                background-color: #002080;
+                background-color: #800055;
             }
 
             .navbar .navbar-brand {
@@ -342,7 +342,7 @@
                 margin-top:50px;
                 max-width: 10rem;
                 max-height: 10rem;
-                border: 0.5rem solid #002db3;
+                border: 0.5rem solid #b3009b;
             }
 
             /*ABOUT SECTION*/
